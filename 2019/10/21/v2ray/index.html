@@ -29,7 +29,7 @@
 <meta property="og:site_name" content="wxin&#39;s blog">
 <meta property="og:description" content="v2ray 配置记录v2ray + nginx + tlsv2ray安装 v2ray新手搭建使用教程     安装curl和vim RedHat系列：Redhat、Centos、Fedora等 yum install curl vim -y     Debian系列：Debian、Ubuntu等 apt-get install curl vim -y     v2ray脚本安装&amp;lt;(curl">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-22T03:11:26.920Z">
+<meta property="og:updated_time" content="2019-10-24T08:43:32.166Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="v2ray">
 <meta name="twitter:description" content="v2ray 配置记录v2ray + nginx + tlsv2ray安装 v2ray新手搭建使用教程     安装curl和vim RedHat系列：Redhat、Centos、Fedora等 yum install curl vim -y     Debian系列：Debian、Ubuntu等 apt-get install curl vim -y     v2ray脚本安装&amp;lt;(curl">
@@ -242,7 +242,7 @@
 <li>开机自启动: systemctl enable nginx</li>
 <li>开机不自启动: systemctl disable nginx    </li>
 </ul>
-<h4 id="配置config"><a href="#配置config" class="headerlink" title="配置config"></a>配置config</h4><p><code>vi /etc/nginx/sites-available/example.com</code>   </p>
+<h4 id="配置config"><a href="#配置config" class="headerlink" title="配置config"></a>配置config</h4><p><code>vi /etc/nginx/sites-available/example.com</code><br><code>sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/</code></p>
 <h5 id="反向代理"><a href="#反向代理" class="headerlink" title="反向代理"></a>反向代理</h5><pre><code>server{
     listen 80;
     server_name example.com;
@@ -263,7 +263,7 @@ server {
 
     location /ray {  #客户端配置需要和此目录保持一致
         proxy_redirect off;
-        proxy_pass http://127.0.0.1:4443;
+        proxy_pass http://127.0.0.1:4443;   #端口需要和v2ray配置的端口一致
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection &quot;upgrade&quot;;
@@ -284,12 +284,12 @@ server {
     <div class="content">
         
 <span class="post-time">
-    最后更新时间：<time datetime="2019-10-22T03:11:26.920Z" itemprop="dateUpdated">2019-10-22 11:11:26</time>
+    最后更新时间：<time datetime="2019-10-24T08:43:32.166Z" itemprop="dateUpdated">2019-10-24 16:43:32</time>
 </span><br>
 
 
         
-        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="/2019/10/21/v2ray/" target="_blank" rel="external">http://crywolfx.github.io/2019/10/21/v2ray/</a>
+        转载请注明出处
         
     </div>
     
