@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://crywolfx.github.io/"/>
-  <updated>2019-10-30T02:31:01.037Z</updated>
+  <updated>2019-11-04T10:35:42.911Z</updated>
   <id>http://crywolfx.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ssr</title>
+    <link href="http://crywolfx.github.io/2019/10/21/ss/"/>
+    <id>http://crywolfx.github.io/2019/10/21/ss/</id>
+    <published>2019-10-21T10:31:31.000Z</published>
+    <updated>2019-11-04T10:35:42.911Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ssr-配置记录"><a href="#ssr-配置记录" class="headerlink" title="ssr 配置记录"></a>ssr 配置记录</h1><h2 id="锐速"><a href="#锐速" class="headerlink" title="锐速"></a>锐速</h2><p><code>wget -N --no-check-certificate https://raw.githubusercontent.com/crywolfx/science-ss/master/ss/serverspeeder.sh &amp;&amp; chmod +x serverspeeder.sh &amp;&amp; bash serverspeeder.sh</code></p><h2 id="bbr"><a href="#bbr" class="headerlink" title="bbr"></a>bbr</h2><p><code>wget -N --no-check-certificate  https://raw.githubusercontent.com/crywolfx/science-ss/master/ss/bbr.sh &amp;&amp; &amp;&amp; chmod +x bbr.sh &amp;&amp; bash bbr.sh</code></p><h2 id="bbr魔改"><a href="#bbr魔改" class="headerlink" title="bbr魔改"></a>bbr魔改</h2><p><code>wget -N --no-check-certificate  https://raw.githubusercontent.com/crywolfx/science-ss/master/ss/bbr_diy.sh &amp;&amp; &amp;&amp; chmod +x bbr_diy.sh &amp;&amp; bash bbr_diy.sh</code></p><h2 id="多合一"><a href="#多合一" class="headerlink" title="多合一"></a>多合一</h2><p><code>wget -N --no-check-certificate  https://raw.githubusercontent.com/crywolfx/science-ss/master/ss/all.sh &amp;&amp; &amp;&amp; chmod +x all.sh &amp;&amp; bash all.sh</code></p><h2 id="ssr"><a href="#ssr" class="headerlink" title="ssr"></a>ssr</h2><p><code>wget –no-check-certificate https://raw.githubusercontent.com/crywolfx/science-ss/master/ss/shadowsocksR.sh &amp;&amp; chmod +x shadowsocksR.sh &amp;&amp; ./shadowsocksR.sh 2&gt;&amp;1 | tee shadowsocksR.log</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;ssr-配置记录&quot;&gt;&lt;a href=&quot;#ssr-配置记录&quot; class=&quot;headerlink&quot; title=&quot;ssr 配置记录&quot;&gt;&lt;/a&gt;ssr 配置记录&lt;/h1&gt;&lt;h2 id=&quot;锐速&quot;&gt;&lt;a href=&quot;#锐速&quot; class=&quot;headerlink&quot; titl
+      
+    
+    </summary>
+    
+    
+      <category term="科学上网" scheme="http://crywolfx.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+  </entry>
   
   <entry>
     <title>v2ray</title>
